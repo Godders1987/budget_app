@@ -4,18 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <title>Monthly Budget App</title>
     <title>Document</title>
   </head>
   <body>
-    <h1>Monthly Spending Tracker</h1>
+    <header>
+      <h1>My Monthly Budget Tracker</h1>
+      <p>Track your spending and stay on top!</p>
+    </header>
+
+    <div id="summary">
+      <!-- Here will go Monthly Spend, Total Spend and Remaining -->
+    </div>
     <div>
       <label for="monthly-amount">What is your budget for this month?</label>
       <input type="number" id="monthly-amount" />
+      <button type="button">Set Budget</button>
     </div>
 
     <div>
       <label for="amount-spent">How much have you spent today?</label>
       <input type="number" id="amount-spent" />
+      <button type="button">Add Expense</button>
     </div>
+    <button type="button">Reset</button>
   </body>
 </html>
